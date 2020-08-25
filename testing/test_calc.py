@@ -22,3 +22,9 @@ class TestCalc:
     def test_add(self, a, b, ans):
         c = self.cal.add(a, b)
         assert ans == c
+
+    def test_minus(self, a, b, ans):
+        c = self.cal.minus(a, b)
+        assert ans == c
+
+
